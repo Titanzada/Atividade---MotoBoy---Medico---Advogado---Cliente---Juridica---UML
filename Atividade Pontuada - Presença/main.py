@@ -3,9 +3,9 @@ from models.Motoboy import Motoboy
 from models.Medico import Medico
 from models.Advogado import Advogado
 from models.Endereco import Endereco
-from models.Sexo import Sexo
-from models.Setor import Setor
-from models.UnidadeFederativa import UnidadeFederativa
+from models.enums.Sexo import Sexo
+from models.enums.Setor import Setor
+from models.enums.UnidadeFederativa import UnidadeFederativa
 from models.Cliente import Cliente
 from models.Juridica import Juridica
 system("cls||clear")

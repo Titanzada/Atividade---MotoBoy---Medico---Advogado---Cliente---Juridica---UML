@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from models.Pessoa import Pessoa
-from models.Sexo import Sexo
+from models.enums.Sexo import Sexo
 from models.Endereco import Endereco
 
 class Fisica(Pessoa, ABC):

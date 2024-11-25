@@ -1,8 +1,8 @@
 from models.Fisica import Fisica
-from models.Setor import Setor
+from models.enums.Setor import Setor
 from abc import ABC, abstractmethod
 from models.Endereco import Endereco
-from models.Sexo import Sexo
+from models.enums.Sexo import Sexo
 
 class Funcionario(Fisica, ABC):
     def __init__(self, nome: str, telefone: str, email: str, endereco: Endereco, cpf: str, rg: str, dataNascimento: str, sexo: Sexo, matricula:str, setor:Setor, salario:float) -> None:

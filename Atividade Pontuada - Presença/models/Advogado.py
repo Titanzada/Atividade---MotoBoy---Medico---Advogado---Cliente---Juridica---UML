@@ -1,7 +1,7 @@
 from models.Funcionario import Funcionario
 from models.Endereco import Endereco
-from models.Sexo import Sexo
-from models.Setor import Setor
+from models.enums.Sexo import Sexo
+from models.enums.Setor import Setor
 
 class Advogado(Funcionario):
     def __init__(self, nome: str, telefone: str, email: str, endereco: Endereco, cpf: str, rg: str, dataNascimento: str, sexo: Sexo, matricula: str, setor: Setor, salario: float, oab:str) -> None:

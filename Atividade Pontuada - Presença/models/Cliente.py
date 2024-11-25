@@ -1,6 +1,6 @@
 from models.Fisica import Fisica
 from models.Endereco import Endereco
-from models.Sexo import Sexo
+from models.enums.Sexo import Sexo
 
 class Cliente(Fisica):
     def __init__(self, nome: str, telefone: str, email: str, endereco: Endereco, cpf: str, rg: str, dataNascimento: str, sexo: Sexo, protocoloAtendimento:int) -> None:
